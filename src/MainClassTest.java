@@ -3,12 +3,17 @@ import org.junit.Test;
 
 public class MainClassTest {
     @Test
-    public void testGetClassNumber() {
-        MainClass number = new MainClass();
+    public void testGetClassString() {
+        MainClass strValue = new MainClass();
 
-        int threshold = 45;
-        int realValue = number.getClassNumber();
+        String realValue = strValue.getClassString();
 
-        Assert.assertTrue("Фактическое значение меньше либо равно " + threshold, realValue > threshold);
+        System.out.println(realValue);
+
+        int indexWordFirst = realValue.indexOf("Hello");
+        int indexWordSecond = realValue.indexOf("hello");
+
+        Assert.assertTrue("В строке нет слов Hello или hello",
+                (indexWordFirst >= 0)||(indexWordSecond >= 0));
     }
 }
