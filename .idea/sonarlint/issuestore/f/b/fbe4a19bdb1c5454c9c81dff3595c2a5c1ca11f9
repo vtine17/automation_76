@@ -1,0 +1,14 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ù›ûûÿÿÿÿ8ÿœã1
+7
+java:S1220""Move this file to a named package.8ÿœã1
+\
+java:S1161":Add the "@Override" annotation above this method signature(£³ÿ½ÿÿÿÿÿ8Ù•œã1
+L	java:S106
+"+Replace this use of System.out by a logger.(‚ä´öûÿÿÿÿ8œã1
+L	java:S106"+Replace this use of System.out by a logger.(‡ßÒÿùÿÿÿÿ8œã1
+Q
+java:S1117"4Rename "a" which hides the field declared at line 5.(Ë‘œ´8œã1
+Q
+java:S1117"4Rename "b" which hides the field declared at line 6.(Ñ÷°8œã1
+G	java:S106"+Replace this use of System.out by a logger.(’›ìÿ8é¯–œã1
