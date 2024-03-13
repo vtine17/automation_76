@@ -1,14 +1,14 @@
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 public class MainTest extends CoreTestCase {
 
     @Test
     public void firstTest(){
-        this.assertFail();
-    }
+        int expected = 20;
+        int actual = 5 * 5;
 
-    private void assertFail() {
-        Assert.fail("This message will be printed");
+        Assert.assertTrue("5 * 5 != 20", actual == expected);
     }
 }
