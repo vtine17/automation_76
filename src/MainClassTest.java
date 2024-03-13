@@ -3,12 +3,12 @@ import org.junit.Test;
 
 public class MainClassTest {
     @Test
-    public void testGetLocalNumber() {
-        MainClass Number = new MainClass();
+    public void testGetClassNumber() {
+        MainClass number = new MainClass();
 
-        int expectedValue = 14;
-        int realValue = Number.getLocalNumber();
+        int threshold = 45;
+        int realValue = number.getClassNumber();
 
-        Assert.assertTrue("Фактическое значение не равно ожидаемому: " + expectedValue, realValue == expectedValue);
+        Assert.assertTrue("Фактическое значение меньше либо равно " + threshold, realValue > threshold);
     }
 }
